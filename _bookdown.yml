@@ -1,0 +1,5 @@
+book_filename: "mara_tries_bookdown"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Chapter "
