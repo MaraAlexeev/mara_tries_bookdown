@@ -1,8 +1,21 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+```{r details for the year, echo=FALSE}
+
+conference_year <- "2021"
+organizing_com_chair <- c("Org Com Chair", "Dr.", "University of Awesome")
+organizing_com_mem_1 <- "Another member"
+
+```
+
 # Introduction {#intro}
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+This is a basic example of different aspects of bookdown to demonstrate how to use. 
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+In `r conference_year` the organizing committee will be chaired by `r organizing_com_chair[2]` `r organizing_com_chair[1]` from the `r organizing_com_chair[3]`. 
 
 ```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
 par(mar = c(4, 4, .1, .1))

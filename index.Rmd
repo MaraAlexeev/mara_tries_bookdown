@@ -7,14 +7,20 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "This is an example of using the bookdown package to write a conference charter."
 ---
 
 # Conference Charter
 
-R/Medicine 
+## R/Medicine 
  
 [R/Medicine Website](https://events.linuxfoundation.org/r-medicine/)
+
+The goal of the R/Medicine conference is to encourage the adoption of statistical modeling and reproducible data processing in clinical practice by promoting the use of the R programming environment and ecosystem. 
+
+R is a free and open-source programming language for reproducible statistical computing, data visualization, and application development. R is the gold standard in reproducible research in academia and industry and has powerful capabilities to create highly-customizable interactive analytic dashboards, as well as predictive models that employ machine learning, deep learning, and artificial intelligence. 
+
+R/Medicine was formed through a collaborative effort of the R Consortium with academic and industry partners including Yale University, Stanford University, the Mayo Clinic, and RStudio, Inc (now RStudio, PBC). Presentations at R/Medicine conferences showcase how the R ecosystem is currently leveraged in medical applications including clinical trial design and analysis, personalized medicine, the development of machine learning models using  laboratory and patient record data, and reproducible research.
 
 ```{r hex logo, echo = FALSE}
 
